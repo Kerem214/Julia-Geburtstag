@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('herz.jpeg'); /* Passe den Pfad entsprechend an */
+    background-color: #eee;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat; /* Das Hintergrundbild nicht wiederholen */
+    background-size: cover; /* Das Hintergrundbild an die Größe des Fensters anpassen */
+}
+
+
+#content {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #696969;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #696969;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+button {
+    background-color: #696969;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#confetti {
+    display: block;
+    margin: 20px auto;
+}
+
+#error-message {
+    color: #ff3333;
+    margin-top: 10px;
+}
+
+#countdown {
+    font-size: 24px;
+    color: #333

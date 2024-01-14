@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geburtstagsüberraschung</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional: Verknüpfung mit einer CSS-Datei für das Styling -->
+    <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.18/confetti.min.js"></script>
+
+</head>
+<body>
+
+    <div id="content">
+        <h1>Happy Bithday!!</h1>
+        <p>Bitte gib die Koordinaten ein:</p>
+        <form id="coordForm">
+            Breitengrad: <input type="text" id="latitude" required><br>
+            Längengrad: <input type="text" id="longitude" required><br>
+            <button type="button" onclick="checkCoordinates()">Überprüfen</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script> <!-- Verknüpfung mit einer JavaScript-Datei für die Logik -->
+
+</body>
+</html>

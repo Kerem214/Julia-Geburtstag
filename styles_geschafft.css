@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffb6c1;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content {
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+#success-message {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    animation: rainbowAnimation 0.5s infinite alternate; /* Animation für die Regenbogenfarben */
+}
+
+@keyframes rainbowAnimation {
+    0% {
+        background: linear-gradient(45deg, #fff, #ff99cc); /* Weiß und Rosa */
+    }
+    100% {
+        background: linear-gradient(45deg, #ff99cc, #fff); /* Umgekehrte Reihenfolge */
+    }
+}
+
+button:hover {
+    animation: none; /* Stoppe die Animation bei Hover, um eigene Farbe beizubehalten */
+    background-color: #eee;
+}
